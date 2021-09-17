@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "yDn7WyBc2MF2YM852EHU7uFoX7AysT/TZKuY+hJOR2OqCtbNrTnC3rrAiVWxod7qjY2f56DqbRxllT53g1iYtw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\A198157\\source\\repos\\navdemo\\navdemo\\navdemo.iOS\\navdemo.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\A198157\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
