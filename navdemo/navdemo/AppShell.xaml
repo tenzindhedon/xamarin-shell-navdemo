@@ -106,12 +106,12 @@
     
     <!--Grouped Nav Items-->
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
-        <ShellContent Icon="icon_about.png" Title="1st Page" ContentTemplate="{DataTemplate local:PageOne}"/>
-        <ShellContent Icon="icon_feed.png" Title="2nd Page" ContentTemplate="{DataTemplate local:PageTwo}"/>
+        <ShellContent Icon="one.png" Title="1st Page" ContentTemplate="{DataTemplate local:PageOne}"/>
+        <ShellContent Icon="two.png" Title="2nd Page" ContentTemplate="{DataTemplate local:PageTwo}"/>
     </FlyoutItem>
     
     <!--Top Tab Nav Items-->
-    <FlyoutItem Title="Top Tabs" FlyoutIcon="">
+    <FlyoutItem Title="Top Tabs" FlyoutIcon="toptab.png">
         <Tab Title="Activity">
             <ShellContent Title="Items"
                           ContentTemplate="{DataTemplate local:ItemsPage}"/>
@@ -125,7 +125,7 @@
     </FlyoutItem>
     
     <!--Bottom Tab Nav Items-->
-    <FlyoutItem Title="Bottom Tabs" FlyoutIcon="">
+    <FlyoutItem Title="Bottom Tabs" FlyoutIcon="bottomtab.png">
         <Tab Title="Browse" Icon="icon_feed.png">
             <ShellContent ContentTemplate="{DataTemplate local:ItemsPage}"/>
         </Tab>
@@ -135,14 +135,14 @@
     </FlyoutItem>
     
     <!--Top and Bottom Tab Nav Menu Items-->
-    <FlyoutItem Title="Top and Bottom" FlyoutIcon="">
-        <Tab Title="Activity" Icon="">
+    <FlyoutItem Title="Top and Bottom" FlyoutIcon="topbottomtab.png">
+        <Tab Title="Activity" Icon="topbottomtab.png">
             <ShellContent Title="Items"
                           ContentTemplate="{DataTemplate local:ItemsPage}"/>
             <ShellContent Title="About"
                           ContentTemplate="{DataTemplate local:AboutPage}"/>
         </Tab>
-        <Tab Title="Pages" Icon="">
+        <Tab Title="Pages" Icon="topbottomtab.png">
             <ShellContent Title="One"
                           ContentTemplate="{DataTemplate local:PageOne}"/>
             <ShellContent Title="Two"
@@ -151,7 +151,7 @@
     </FlyoutItem>
 
     <!--Display Message Sample-->
-    <MenuItem Text="Rate this App" IconImageSource="" Clicked="MenuItem_Clicked"/>
+    <MenuItem Text="Rate this App" IconImageSource="star.png" Clicked="MenuItem_Clicked"/>
 
     <!-- When the Flyout is visible this will be a menu item you can tie a click behavior to  -->
     <MenuItem Text="Logout" StyleClass="MenuItemLayoutStyle" Clicked="OnMenuItemClicked">

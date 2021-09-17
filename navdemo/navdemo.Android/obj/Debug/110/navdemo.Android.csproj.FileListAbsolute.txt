@@ -610,3 +610,7 @@ C:\Users\A198157\source\repos\navdemo\navdemo\navdemo.Android\obj\Debug\110\lp\8
 C:\Users\A198157\source\repos\navdemo\navdemo\navdemo.Android\obj\Debug\110\lp\84\jl\files.cache
 C:\Users\A198157\source\repos\navdemo\navdemo\navdemo.Android\obj\Debug\110\lp\85\jl\files.cache
 C:\Users\A198157\source\repos\navdemo\navdemo\navdemo.Android\obj\Debug\110\lp\86\jl\files.cache
+C:\Users\A198157\source\repos\navdemo\navdemo\navdemo.Android\obj\Debug\110\res\drawable\bottomtab.png
+C:\Users\A198157\source\repos\navdemo\navdemo\navdemo.Android\obj\Debug\110\res\drawable\star.png
+C:\Users\A198157\source\repos\navdemo\navdemo\navdemo.Android\obj\Debug\110\res\drawable\topbottomtab.png
+C:\Users\A198157\source\repos\navdemo\navdemo\navdemo.Android\obj\Debug\110\res\drawable\toptab.png
