@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "Yyj7TnW0M2ho/gSmFYazjqXU+Ry+yOGrOG7BBjJ+Nh7FKzOEs556M0d9uTpWiMdU6Pc9JTyPwkWxZidoI6wiDA==",
+  "dgSpecHash": "U+kXo8MBs0aG5MKlVPuzQ9BU8OmAxA+v5Ce3ugI1RLO4lc2FFnECNWzX549J8wR2uepeEv40tsH//j2Gh6630w==",
   "success": true,
   "projectFilePath": "C:\\Users\\A198157\\source\\repos\\navdemo\\navdemo\\navdemo\\navdemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\A198157\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\A198157\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\A198157\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+    "C:\\Users\\A198157\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\A198157\\.nuget\\packages\\xamarin.forms\\5.0.0.2083\\xamarin.forms.5.0.0.2083.nupkg.sha512"
   ],
   "logs": []
 }
