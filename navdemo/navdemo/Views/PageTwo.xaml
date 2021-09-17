@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             BackgroundColor="Cornsilk"
-             Title="One"
-             x:Class="navdemo.Views.PageOne">
+             BackgroundColor="DodgerBlue"
+             Title="Two"
+             x:Class="navdemo.Views.PageTwo">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Page One!"
+            <Label Text="Welcome to Page Two!"
                    FontSize="Large"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
