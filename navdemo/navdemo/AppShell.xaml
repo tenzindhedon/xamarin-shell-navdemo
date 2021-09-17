@@ -75,7 +75,7 @@
 
     <Shell.FlyoutHeader>
         <Grid HeightRequest="80"
-              BackgroundColor="BlueViolet">
+              BackgroundColor="PowderBlue">
             <Label Text="Nav Demo"
                    TextColor="White"
                    FontSize="48"
@@ -110,7 +110,19 @@
         <ShellContent Icon="icon_feed.png" Title="2nd Page" ContentTemplate="{DataTemplate local:PageTwo}"/>
     </FlyoutItem>
     
-    
+    <!--Top Tab Nav Items-->
+    <FlyoutItem Title="Top Tabs" FlyoutIcon="">
+        <Tab Title="Activity">
+            <ShellContent Title="Items"
+                          ContentTemplate="{DataTemplate local:ItemsPage}"/>
+            <ShellContent Title="About"
+                          ContentTemplate="{DataTemplate local:AboutPage}"/>
+            <ShellContent Title="One"
+                          ContentTemplate="{DataTemplate local:PageOne}"/>
+            <ShellContent Title="Two"
+                          ContentTemplate="{DataTemplate local:PageTwo}"/>
+        </Tab>
+    </FlyoutItem>
     
     <!--Bottom Tab Nav Items-->
     <FlyoutItem Title="Bottom Tabs" FlyoutIcon="">
@@ -121,6 +133,25 @@
             <ShellContent ContentTemplate="{DataTemplate local:AboutPage}"/>
         </Tab>
     </FlyoutItem>
+    
+    <!--Top and Bottom Tab Nav Menu Items-->
+    <FlyoutItem Title="Top and Bottom" FlyoutIcon="">
+        <Tab Title="Activity" Icon="">
+            <ShellContent Title="Items"
+                          ContentTemplate="{DataTemplate local:ItemsPage}"/>
+            <ShellContent Title="About"
+                          ContentTemplate="{DataTemplate local:AboutPage}"/>
+        </Tab>
+        <Tab Title="Pages" Icon="">
+            <ShellContent Title="One"
+                          ContentTemplate="{DataTemplate local:PageOne}"/>
+            <ShellContent Title="Two"
+                          ContentTemplate="{DataTemplate local:PageTwo}"/>
+        </Tab>
+    </FlyoutItem>
+
+    <!--Display Message Sample-->
+    <MenuItem Text="Rate this App" IconImageSource="" Clicked="MenuItem_Clicked"/>
 
     <!-- When the Flyout is visible this will be a menu item you can tie a click behavior to  -->
     <MenuItem Text="Logout" StyleClass="MenuItemLayoutStyle" Clicked="OnMenuItemClicked">
