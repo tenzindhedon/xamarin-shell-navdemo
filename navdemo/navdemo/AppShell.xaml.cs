@@ -19,5 +19,11 @@ namespace navdemo
         {
             await Shell.Current.GoToAsync("//LoginPage");
         }
+
+        private void MenuItem_Clicked(object sender, EventArgs e)
+        {
+            FlyoutIsPresented = false;
+            DisplayAlert("Rate!", "You selected the Rate This App item.", "Ok");
+        }
     }
 }
