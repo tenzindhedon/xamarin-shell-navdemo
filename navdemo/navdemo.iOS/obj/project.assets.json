@@ -28,7 +28,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.2083": {
+      "Xamarin.Forms/5.0.0.2125": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -156,7 +156,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2083"
+          "Xamarin.Forms": "5.0.0.2125"
         },
         "compile": {
           "bin/placeholder/navdemo.dll": {}
@@ -193,7 +193,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.2083": {
+      "Xamarin.Forms/5.0.0.2125": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -321,7 +321,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2083"
+          "Xamarin.Forms": "5.0.0.2125"
         },
         "compile": {
           "bin/placeholder/navdemo.dll": {}
@@ -358,7 +358,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.2083": {
+      "Xamarin.Forms/5.0.0.2125": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -486,7 +486,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2083"
+          "Xamarin.Forms": "5.0.0.2125"
         },
         "compile": {
           "bin/placeholder/navdemo.dll": {}
@@ -523,7 +523,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.2083": {
+      "Xamarin.Forms/5.0.0.2125": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -651,7 +651,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2083"
+          "Xamarin.Forms": "5.0.0.2125"
         },
         "compile": {
           "bin/placeholder/navdemo.dll": {}
@@ -752,10 +752,10 @@
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/5.0.0.2083": {
-      "sha512": "KDKdEIq8SA3zP8/qyJZ9isIsP1KRLvhxUohTM4GS4HOQkkK3FARvi/FJv91O4IJ/30ByJg88mBdKuiLMyL9Q+w==",
+    "Xamarin.Forms/5.0.0.2125": {
+      "sha512": "oP4eEx8SkEId/azXqzBpl9MA5kjn8izMoQImV3c/M4Q8NLSERWWNJkymrSylaIIO4l0zQIofYjwQoHmtaQ0dFQ==",
       "type": "package",
-      "path": "xamarin.forms/5.0.0.2083",
+      "path": "xamarin.forms/5.0.0.2125",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -964,7 +964,7 @@
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.5.0.0.2083.nupkg.sha512",
+        "xamarin.forms.5.0.0.2125.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -977,7 +977,7 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "Xamarin.Essentials >= 1.7.0",
-      "Xamarin.Forms >= 5.0.0.2083",
+      "Xamarin.Forms >= 5.0.0.2125",
       "navdemo >= 1.0.0"
     ]
   },
@@ -989,11 +989,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\A198157\\source\\repos\\navdemo\\navdemo\\navdemo.iOS\\navdemo.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\A198157\\source\\repos\\xamarin-shell-navdemo\\navdemo\\navdemo.iOS\\navdemo.iOS.csproj",
       "projectName": "navdemo.iOS",
-      "projectPath": "C:\\Users\\A198157\\source\\repos\\navdemo\\navdemo\\navdemo.iOS\\navdemo.iOS.csproj",
+      "projectPath": "C:\\Users\\A198157\\source\\repos\\xamarin-shell-navdemo\\navdemo\\navdemo.iOS\\navdemo.iOS.csproj",
       "packagesPath": "C:\\Users\\A198157\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\A198157\\source\\repos\\navdemo\\navdemo\\navdemo.iOS\\obj\\",
+      "outputPath": "C:\\Users\\A198157\\source\\repos\\xamarin-shell-navdemo\\navdemo\\navdemo.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1011,13 +1011,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.episerver.com/feed/packages.svc/": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\A198157\\source\\repos\\navdemo\\navdemo\\navdemo\\navdemo.csproj": {
-              "projectPath": "C:\\Users\\A198157\\source\\repos\\navdemo\\navdemo\\navdemo\\navdemo.csproj"
+            "C:\\Users\\A198157\\source\\repos\\xamarin-shell-navdemo\\navdemo\\navdemo\\navdemo.csproj": {
+              "projectPath": "C:\\Users\\A198157\\source\\repos\\xamarin-shell-navdemo\\navdemo\\navdemo\\navdemo.csproj"
             }
           }
         }
@@ -1032,7 +1033,7 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[5.0.0.2083, )"
+            "version": "[5.0.0.2125, )"
           }
         }
       }

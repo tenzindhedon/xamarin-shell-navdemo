@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\A198157\\source\\repos\\navdemo\\navdemo\\navdemo.Android\\navdemo.Android.csproj": {}
+    "C:\\Users\\A198157\\source\\repos\\xamarin-shell-navdemo\\navdemo\\navdemo.Android\\navdemo.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\A198157\\source\\repos\\navdemo\\navdemo\\navdemo.Android\\navdemo.Android.csproj": {
+    "C:\\Users\\A198157\\source\\repos\\xamarin-shell-navdemo\\navdemo\\navdemo.Android\\navdemo.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A198157\\source\\repos\\navdemo\\navdemo\\navdemo.Android\\navdemo.Android.csproj",
+        "projectUniqueName": "C:\\Users\\A198157\\source\\repos\\xamarin-shell-navdemo\\navdemo\\navdemo.Android\\navdemo.Android.csproj",
         "projectName": "navdemo.Android",
-        "projectPath": "C:\\Users\\A198157\\source\\repos\\navdemo\\navdemo\\navdemo.Android\\navdemo.Android.csproj",
+        "projectPath": "C:\\Users\\A198157\\source\\repos\\xamarin-shell-navdemo\\navdemo\\navdemo.Android\\navdemo.Android.csproj",
         "packagesPath": "C:\\Users\\A198157\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A198157\\source\\repos\\navdemo\\navdemo\\navdemo.Android\\obj\\",
+        "outputPath": "C:\\Users\\A198157\\source\\repos\\xamarin-shell-navdemo\\navdemo\\navdemo.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -29,13 +29,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.episerver.com/feed/packages.svc/": {}
         },
         "frameworks": {
           "monoandroid11.0": {
             "projectReferences": {
-              "C:\\Users\\A198157\\source\\repos\\navdemo\\navdemo\\navdemo\\navdemo.csproj": {
-                "projectPath": "C:\\Users\\A198157\\source\\repos\\navdemo\\navdemo\\navdemo\\navdemo.csproj"
+              "C:\\Users\\A198157\\source\\repos\\xamarin-shell-navdemo\\navdemo\\navdemo\\navdemo.csproj": {
+                "projectPath": "C:\\Users\\A198157\\source\\repos\\xamarin-shell-navdemo\\navdemo\\navdemo\\navdemo.csproj"
               }
             }
           }
@@ -50,20 +51,20 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.2083, )"
+              "version": "[5.0.0.2125, )"
             }
           }
         }
       }
     },
-    "C:\\Users\\A198157\\source\\repos\\navdemo\\navdemo\\navdemo\\navdemo.csproj": {
+    "C:\\Users\\A198157\\source\\repos\\xamarin-shell-navdemo\\navdemo\\navdemo\\navdemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A198157\\source\\repos\\navdemo\\navdemo\\navdemo\\navdemo.csproj",
+        "projectUniqueName": "C:\\Users\\A198157\\source\\repos\\xamarin-shell-navdemo\\navdemo\\navdemo\\navdemo.csproj",
         "projectName": "navdemo",
-        "projectPath": "C:\\Users\\A198157\\source\\repos\\navdemo\\navdemo\\navdemo\\navdemo.csproj",
+        "projectPath": "C:\\Users\\A198157\\source\\repos\\xamarin-shell-navdemo\\navdemo\\navdemo\\navdemo.csproj",
         "packagesPath": "C:\\Users\\A198157\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A198157\\source\\repos\\navdemo\\navdemo\\navdemo\\obj\\",
+        "outputPath": "C:\\Users\\A198157\\source\\repos\\xamarin-shell-navdemo\\navdemo\\navdemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -80,7 +81,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.episerver.com/feed/packages.svc/": {}
         },
         "frameworks": {
           "netstandard2.0": {
@@ -110,7 +112,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.2083, )"
+              "version": "[5.0.0.2125, )"
             }
           },
           "imports": [

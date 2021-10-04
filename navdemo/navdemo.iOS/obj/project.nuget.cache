@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "T7ZhMjILCanfEcjvIGQdjh+8SmVFPCKrDJ9OPvT75PuTnzK6KFF/4v2pMJaiLHrY1pUBq3c+r95vj9J9jEcsBA==",
+  "dgSpecHash": "SE+rJrTk+xbElbrrtJLq2q0EzXgirVWvwgtMDiep4vajet/Ew8BaxmKhOCQ+0gMazAQPs905u4gRFDQVnVzz+Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\A198157\\source\\repos\\navdemo\\navdemo\\navdemo.iOS\\navdemo.iOS.csproj",
+  "projectFilePath": "C:\\Users\\A198157\\source\\repos\\xamarin-shell-navdemo\\navdemo\\navdemo.iOS\\navdemo.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\A198157\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\A198157\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\A198157\\.nuget\\packages\\xamarin.forms\\5.0.0.2083\\xamarin.forms.5.0.0.2083.nupkg.sha512"
+    "C:\\Users\\A198157\\.nuget\\packages\\xamarin.forms\\5.0.0.2125\\xamarin.forms.5.0.0.2125.nupkg.sha512"
   ],
   "logs": []
 }
